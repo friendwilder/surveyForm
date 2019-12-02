@@ -1,0 +1,35 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<h1 id="title">Encuesta</h1>
+
+<p id = "description"> Esta encuesta tiene el objetivo de conocer cuantos estudiantes de freeCodeCamp estan usando github en sus proyectos u otro SVN</p>
+
+<form id="survey-form" action="/submit-form">
+  <label for="name" id="name-label">Name:
+    <input type="text" id="name" placeholder="Juan Pérez" required></label><br>
+  <label for="email" id="email-label">Email:
+    <input type="email" id="email" placeholder="Por favor, ingresa tu e-mail" required></label><br>
+  <label for="number" id="number-label"> Edad
+    <input type="number" max="99" min="1" id="number" placeholder="25" ></label><br>
+  <select id="dropdown">
+    <option>Rapidez</option>
+    <option>Comprensión</option>
+  </select><br>
+  <label>
+    <input type="radio" name="seleccionar" value="GitHub"> Github 
+  </label>
+  <label>
+    <input type="radio" name="seleccionar" value="Otro">Otro SVN
+  </label><br>
+  <label>Responsive Web Design
+    <input type="checkbox" value="ResponsiveWeb">
+  </label>
+  <label>Javascript Algorithms and Data Structures
+    <input type="checkbox" value="Javascript">
+  </label><br>
+  <textarea>Commentarios adicionales</textarea><br>
+  <button id="submit" type="enviar">Enviar</button>
+</form>
+
+
+
